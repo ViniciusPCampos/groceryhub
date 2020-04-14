@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Groceryhub.Application\Groceryhub.Application.csproj" />
+      <ProjectReference Include="..\Groceryhub.Domain\Groceryhub.Domain.csproj" />
+      <ProjectReference Include="..\Groceryhub.Infra.ELS\Groceryhub.Infra.ELS.csproj" />
+    </ItemGroup>
+
+
+</Project>
